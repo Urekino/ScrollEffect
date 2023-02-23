@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <script>
+      $(window).on('scroll',function(){
+        $(".column-normal").css('bottom',$(window).scrollTop()*-1);
+      });
+    </script>
+
+    <div class="columns">
+        <div class="column-reverse1">
+          <div class="imageProcess">
+            <img src="1998.jpg">
+            <img src="2002.jpg">
+            <img src="2006.jpg">
+            <img src="2010.jpg">
+            <img src="2014.jpg">
+            <img src="2018.jpeg">
+          </div>
+            
+        </div>
+        <div class="column-normal">
+          <div class="imageProcess">
+            <img src="Basket1.jpeg">
+            <img src="Basket2.jpeg">
+            <img src="Basket3.jpg">
+            <img src="Basket4.jpg">
+            <img src="Basket5.jpg">
+          </div>
+        </div>
+        <div class="column-reverse2">
+          <div class="imageProcess">
+            <img src="Volley1.jpg">
+            <img src="Volley2.jpg">
+            <img src="Volley3.jpg">
+            <img src="Volley5.jpg">
+            <img src="Volley6.jpg">
+          </div>
+        </div>
+    </div>
+
+  </body>
+</html>

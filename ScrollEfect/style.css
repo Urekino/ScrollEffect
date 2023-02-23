@@ -1,0 +1,42 @@
+
+.columns{
+    display: flex;
+    
+}
+img{
+    max-width: 60%;
+    height:auto;
+}
+.column-reverse1 {
+  /*display: flex;*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 33%;
+  box-sizing: border-box;
+  height: 1000px;
+} 
+.column-normal {
+  position:absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 33%;
+  box-sizing: border-box;
+  position: fixed;
+  left: 33%;
+  bottom: 0;
+  height: 1000px;
+  padding-bottom: 15vh;
+  z-index: -1;
+}
+.column-reverse2 {
+  position: absolute;
+  right: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 33%;
+  box-sizing: border-box;
+  height: 1000px;
+} 
